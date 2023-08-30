@@ -5,7 +5,7 @@
 
 class Square:
     '''square methods or attributes'''
-    def __init__(self, size):
+    def __init__(self, size=0):
         ''' init square wit attribute size
         Args:
             size - Square size
