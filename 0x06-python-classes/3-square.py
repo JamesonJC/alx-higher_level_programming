@@ -23,4 +23,4 @@ class Square:
         ''' computes the area of the sqare
         Returns: The results sqaring the value size
         '''
-        return (self.__size * self._size)
+        return (self.__size * self.__size)
