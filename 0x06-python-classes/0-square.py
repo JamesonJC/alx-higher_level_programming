@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
-class Square:
+'''Defination of a class squre'''
 
-    pass
+
+class Square:
+    ''' class saquare implimentations(mathods/attributes)'''
+    pass   # All to be implimented later
