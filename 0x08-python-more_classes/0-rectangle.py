@@ -2,6 +2,6 @@
 '''A class Rectangle.'''
 
 
-class Ractangle:
+class Rectangle:
     '''Representaions of a rectangle.'''
     pass
