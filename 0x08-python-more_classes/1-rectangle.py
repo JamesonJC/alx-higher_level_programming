@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''
 
-A  Rectangle
+A  Rectangle Module
 
 '''
 
@@ -57,7 +57,7 @@ class Rectangle:
 
 
             '''
-            return self.__height
+            return (self.__height)
 
         @height.setter
         def height(self, value):
