@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+'''Class defination'''
+
+
 class Student:
     ''' A class student represenation. '''
     def __init__(self, first_name, last_name, age):
