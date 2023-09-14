@@ -23,7 +23,7 @@ class Student:
         Defines student in the form of a dictionary.
 
         Args:
-            attrs (list): The attriboutes of the the class.
+            attrs (list): The attributes of the the class.
         '''
         if (type(attrs) == list and
                 all(type(ele) == str for ele in attrs)):
