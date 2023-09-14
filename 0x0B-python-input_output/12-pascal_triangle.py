@@ -20,7 +20,7 @@ def pascal_triangle(n):
     triangles = [[1]]
 
     while len(triangles) != n:
-        lst_row = triangles[-1]
+        last_row = triangles[-1]
         new_row = [1]
         
         for i in range(len(last_row) - 1):
