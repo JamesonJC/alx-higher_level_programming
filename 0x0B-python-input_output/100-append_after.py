@@ -3,14 +3,19 @@
 
 def append_after(filename="", search_string="", new_string=""):
     '''
-    Function inserting the text. 
+    Function inserting text
+
+    Args:
+        filename (str): File to insert text in.
+        search_string (str): The string to be searched in the file
+        new_string (str): The string to be inserted in the file
+
     '''
-    with open(filename, 'r+') as f:
-        lines = f.readlines()
-        i = 0
-        for line in lines:
-            if line.find(search_string) is not -1:
-                lines.insert(i + 1, new_string)
-            i += 1
-        f.seek(0)
-        f.write("".join(lines))
+    with open(filename, "r") as file:
+        for line in file:
+            update_line.append(line)
+            if search_string on line:
+                updated_lines.append(new_string)
+
+    with open(filename, "w") as file:
+        file.writelines(updated_lines)
