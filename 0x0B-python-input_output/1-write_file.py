@@ -1,23 +1,19 @@
 #!/usr/bin/python3
-''' Returns number of lines in a text file '''
+''' Write a text into a file '''
 
 
-def number_of_lines(filename=""):
+def write_file(filename="", text=""):
     '''
-    function: number_of_lines
+    function: write_file
 
     Args:
-        filename (str): file to be opened.
+        filename (str): file to write into.
+        text (str): Text to be written.
 
     Returns:
-        int: Number of lines.
+        int: Number of characters written.
 
     '''
 
-    if filename == "" or type(filename) != str:
-        return (0)
-    counter = 0
-    with open(filename, 'r') as f:
-        for line in f:
-            counter += 1
-    return (counter)
+    with open(filename, "w", encoding="utf-8") as file:
+        return (file.write(text))
