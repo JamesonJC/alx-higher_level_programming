@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 ''' MyList class representation. '''
 
 
@@ -13,7 +12,6 @@ class MyLIst(list):
     Methods:
         print_sorted():
             print the list arranged/or sorted.
-
 
     '''
     def __int__(self):
@@ -30,4 +28,4 @@ class MyLIst(list):
 
         '''
         sorted_list = sorted(self)
-        print(sorted_lis)
+        print(sorted_list)
