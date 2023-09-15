@@ -15,11 +15,11 @@
 	  >>> len(mod) > 1
 	  True
 
-#MyList inherited from list:
+'''MyList inherited from list:
 	  >>> from mylist import MyList
 	  >>> issubclass(MyList, list)
 	  True
-
+'''
 #Case empty list:
 	  >>> l = MyList()
 	  >>> l.print_sorted()
