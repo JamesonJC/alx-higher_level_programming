@@ -16,6 +16,7 @@
 	  True
 
 #MyList inherited from list:
+	  >>> from mylist import MyList
 	  >>> issubclass(MyList, list)
 	  True
 
