@@ -14,7 +14,7 @@ class BaseGeometry:
         Checks if a parameter is an integer or not.
 
         Args:
-            name (str): Parameter name.
+            name (str): Name of the parameter to be checked.
             value (int): Integer to be checked.
 
         Raises:
