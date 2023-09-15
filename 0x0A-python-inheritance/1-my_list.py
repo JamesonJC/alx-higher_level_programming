@@ -2,7 +2,7 @@
 ''' MyList class representation. '''
 
 
-class MyLIst(list):
+class MyList(list):
     ''' 
     A subclass of class MyList with added method for printing the list.
 
@@ -14,7 +14,7 @@ class MyLIst(list):
             print the list arranged/or sorted.
 
     '''
-    def __int__(self):
+    def __init__(self):
         ''' Constructor for an empty Mylist Object. '''
         super().__init__()
 
