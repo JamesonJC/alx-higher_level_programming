@@ -5,7 +5,7 @@ import json
 
 def load_data_from_json_file(filename):
     '''
-    load_data_from_json_file: Load data from a JSON file 
+    load_data_from_json_file: Load data from a JSON file
                               and return it as a Python object.
 
     Args:
@@ -19,4 +19,3 @@ def load_data_from_json_file(filename):
     with open(filename, "r") as file:
         data = json.load(file)
         return (data)
-
