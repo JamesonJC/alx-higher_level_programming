@@ -14,9 +14,6 @@ class MyList(list):
             print the list arranged/or sorted.
 
     '''
-    '''def __init__(self):'''
-    '''Constructor for an empty Mylist Object. '''
-    '''super().__init__()'''
 
     def print_sorted(self):
         '''
