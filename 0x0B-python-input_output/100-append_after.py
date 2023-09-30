@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 ''' Insert a line of text after each line in a file of a specific text '''
 
+
 def append_after(filename="", search_string="", new_string=""):
     '''
     Function inserting text
