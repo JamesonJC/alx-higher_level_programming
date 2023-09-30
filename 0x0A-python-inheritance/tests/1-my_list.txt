@@ -1,4 +1,4 @@
-#******1-my_list.py test**********
+#******1-my_list.py test*********
 
 #Importing class from the module
 	>>> MyList = __import__("1-my_list").MyList

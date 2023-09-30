@@ -15,7 +15,7 @@ class MyList(list):
 
     '''
     '''def __init__(self):'''
-    ''' Constructor for an empty Mylist Object. '''
+    '''Constructor for an empty Mylist Object. '''
     '''super().__init__()'''
 
     def print_sorted(self):
