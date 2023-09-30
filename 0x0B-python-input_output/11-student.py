@@ -30,7 +30,11 @@ class Student:
         '''
         if attrs is None:
             return self.__dict__
-        return {attr: getattr(self, attr, None) for attr in attrs if hasattr(self, attr)}
+        return {
+            attr: getattr(self, attr, None)
+            for attr in attrs
+            if hasattr(self, attr)
+        }
 
     def reload_from_json(self, json):
         '''
