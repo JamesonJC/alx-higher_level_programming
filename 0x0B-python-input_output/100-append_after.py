@@ -12,10 +12,11 @@ def append_after(filename="", search_string="", new_string=""):
         new_string (str): The string to be inserted in the file
 
     '''
+    update_line = []
     with open(filename, "r") as file:
         for line in file:
             update_line.append(line)
-            if search_string on line:
+            if search_string in line:
                 updated_lines.append(new_string)
 
     with open(filename, "w") as file:
