@@ -4,6 +4,7 @@ import json
 
 
 def load_data_from_json_file(filename):
+    """Create an object of python from aJSON file"""
     '''
     load_data_from_json_file: Load data from a JSON file
                               and return it as a Python object.
