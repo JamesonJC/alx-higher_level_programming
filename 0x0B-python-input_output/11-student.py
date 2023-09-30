@@ -28,9 +28,9 @@ class Student:
             dict: A student in the for of dictionary.
 
         '''
-        if atr is None:
+        if attrs is None:
             return self.__dict__
-        return ar: getattr(self, ar, None) for ar in atr if hasattr(self, ar)
+        return {attr: getattr(self, attr, None) for attr in attrs if hasattr(self, attr)}
 
     def reload_from_json(self, json):
         '''
