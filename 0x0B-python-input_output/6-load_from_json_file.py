@@ -4,19 +4,29 @@ import json
 
 
 def load_data_from_json_file(filename):
-    """Create an object of python from aJSON file"""
     '''
     load_data_from_json_file: Load data from a JSON file
-                              and return it as a Python object.
+    and return it as a Python object.
 
     Args:
         filename (str): The name of the JSON file to read.
 
     Returns:
-        dict or list: The Python object representing the JSON data.
-
+         dict or list: The Python object representing the JSON data.
     '''
 
     with open(filename, "r") as file:
-        data = json.load(file)
-        return (data)
+        try:
+            data = json.load(file)
+            return data
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+            return None
+
+
+if __name__ == "__main__":
+    filename = "your_json_file.json"  # Replace with the actual JSON file path
+    loaded_data = load_data_from_json_file(filename)
+
+    if loaded_data is not None:
+        print(loaded_data)
