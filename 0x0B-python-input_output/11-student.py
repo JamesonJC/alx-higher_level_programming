@@ -2,7 +2,6 @@
 '''Class defination'''
 
 
-
 class Student:
     ''' A class student represenation. '''
     def __init__(self, first_name, last_name, age):
@@ -29,9 +28,9 @@ class Student:
             dict: A student in the for of dictionary.
 
         '''
-        if attrs is None:
+        if atr is None:
             return self.__dict__
-        return {attr: getattr(self, attr, None) for attr in attrs if hasattr(self, attr)}
+        return ar: getattr(self, ar, None) for ar in atr if hasattr(self, ar)
 
     def reload_from_json(self, json):
         '''
